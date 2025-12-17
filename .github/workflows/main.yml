@@ -2,9 +2,9 @@ name: Run test suite for project
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, MCW-01 ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, MCW-01 ]
 
 jobs:
   build:
